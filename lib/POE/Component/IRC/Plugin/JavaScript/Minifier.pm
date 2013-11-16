@@ -3,7 +3,7 @@ package POE::Component::IRC::Plugin::JavaScript::Minifier;
 use warnings;
 use strict;
 
-our $VERSION = '0.0101';
+our $VERSION = '0.0102';
 
 use base 'POE::Component::IRC::Plugin::BasePoCoWrap';
 use POE::Component::JavaScript::Minifier;
@@ -56,9 +56,11 @@ sub _make_poco_call {
 1;
 __END__
 
+=encoding utf8
+
 =head1 NAME
 
-POE::Component::IRC::Plugin::JavaScript::Minifier - plugin to "minify" JavaScript code
+POE::Component::IRC::Plugin::JavaScript::Minifier - PoCo::IRC plugin to minify JavaScript code
 
 =head1 SYNOPSIS
 
